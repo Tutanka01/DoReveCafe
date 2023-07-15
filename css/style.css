@@ -9601,7 +9601,7 @@ h6,
   margin: 0;
   top: -5px;
   right: 10px;
-  width: 45px;
+  width: auto; /* Ajuster la largeur automatiquement en fonction du contenu */
   height: 45px;
   display: flex;
   align-items: center;
@@ -9609,7 +9609,10 @@ h6,
   border-radius: 45px;
   color: #33211D;
   background: #DA9F5B;
+  padding: 0 10px; /* Ajouter un padding pour éviter que le contenu ne touche les bords du cercle */
+  white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
 }
+
 
 .testimonial-carousel .owl-dots {
   margin-top: 30px;
