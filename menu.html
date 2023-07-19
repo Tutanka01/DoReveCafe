@@ -24,6 +24,21 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+    <style>
+        .carousel-img {
+            max-width: 100%;
+            height: auto;
+          }
+          .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.2); /* Modifier l'opacité ici (0.5 correspond à 50% d'opacité) */
+          }
+          .carousel-caption h4 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: aliceblue;
+          }
+          
+    </style>
 </head>
 
 <body>
@@ -100,6 +115,70 @@
                             <h4>Cafe Espresso</h4>
                             <p class="m-0">Notre café Espresso est fait avec des grains de café de première qualité issus de plusieurs pays. Il a une saveur riche et corsée, avec une touche d'amertume. Il est idéal pour les proffessionnels.</p>
                         </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-12 col-sm-4">
+                            <img src="img/menu-4.jpg" alt="" width="170" height="237">
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h4>Cafe Arabica</h4>
+                            <p class="m-0">Découvrez notre café 100% Arabica pour les professionnels exigeants. Cultivé avec soin et torréfié selon les plus hauts standards, notre café offre une saveur raffinée et des arômes subtils. Commandez dès maintenant pour une expérience de café exceptionnelle dans votre établissement.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-12 col-sm-4">
+                            <img src="img/menu-5.jpg" alt="" width="170" height="237">
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h4>Cafe 50/50 Arabica et Robusta</h4>
+                            <p class="m-0">Découvrez notre café équilibré, composé à parts égales de 50% d'Arabica et de 50% de Robusta. Cette combinaison soigneusement sélectionnée offre une expérience en tasse unique, alliant la saveur raffinée de l'Arabica aux notes audacieuses du Robusta. Commandez dès maintenant pour profiter de ce café parfaitement équilibré dans votre établissement.
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="mb-5">Nos Sirops :</h1>
+                    <p>Découvrez nos sirops exquis pour des boissons parfaitement aromatisées. Choisissez parmi notre sélection de saveurs raffinées, telles que vanille, caramel et menthe, pour une expérience gustative exceptionnelle. Laissez-vous séduire par nos sirops et transformez vos boissons en véritables délices.</p>
+                    <div id="siropCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/sirop1.jpg" alt="" class="carousel-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop2.jpg" alt="" class="carousel-img">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop3.jpg" alt="" class="carousel-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop4.jpg" alt="" class="carousel-img">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop5.jpg" alt="" class="carousel-img">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop7.jpg" alt="" class="carousel-img">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/sirop8.jpg" alt="" class="carousel-img">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <!-- Ajoutez d'autres éléments de carrousel avec les images et les descriptions correspondantes -->
+                        </div>
+                        <a class="carousel-control-prev" href="#siropCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Précédent</span>
+                        </a>
+                        <a class="carousel-control-next" href="#siropCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Suivant</span>
+                        </a>
                     </div>
                 </div>
             </div>
