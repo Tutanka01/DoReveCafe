@@ -25,20 +25,23 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
     <style>
-        .carousel-img {
-            max-width: 100%;
-            height: auto;
-          }
-          .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.2); /* Modifier l'opacité ici (0.5 correspond à 50% d'opacité) */
-          }
-          .carousel-caption h4 {
-            font-size: 1.5rem;
-            font-weight: 300;
-            color: aliceblue;
-          }
-          
-    </style>
+        .carousel-img,
+        .carousel-video {
+        max-width: 100%;
+        max-height: 500px; 
+        width: auto;
+        height: auto;
+        }
+      .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      .carousel-caption h4 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: aliceblue;
+      }
+      
+</style>
 </head>
 
 <body>
@@ -138,47 +141,33 @@
                     <h1 class="mb-5">Nos Sirops :</h1>
                     <div id="siropCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <video class="w-100 carousel-video" autoplay muted loop>
+                                    <source src="img/sirop_vid8_cmpr.mp4" type="video/mp4">
+                                    Votre navigateur ne prend pas en charge la lecture de vidéos au format MP4.
+                                </video>
+                            </div>
                             <div class="carousel-item active">
-                                <img src="img/sirop1.jpg" alt="" class="carousel-img">
+                                <img src="img/sirop_img1.jpg" alt="" class="carousel-img">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/sirop2.jpg" alt="" class="carousel-img">
-                                
+                                <video class="w-100 carousel-video" autoplay muted loop>
+                                    <source src="img/sirop_vid7_cmpr.mp4" type="video/mp4">
+                                    Votre navigateur ne prend pas en charge la lecture de vidéos au format MP4.
+                                </video>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/sirop3.jpg" alt="" class="carousel-img">
+                                <video class="w-100 carousel-video" autoplay muted loop>
+                                    <source src="img/sirop_vid6_cmpr.mp4" type="video/mp4">
+                                    Votre navigateur ne prend pas en charge la lecture de vidéos au format MP4.
+                                </video>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/sirop4.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
+                                <video class="w-100 carousel-video" autoplay muted loop>
+                                    <source src="img/sirop_vid5_cmpr.mp4" type="video/mp4">
+                                    Votre navigateur ne prend pas en charge la lecture de vidéos au format MP4.
+                                </video>
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/sirop5.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/sirop7.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/sirop8.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/sirop9.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/sirop10.jpg" alt="" class="carousel-img">
-                                <div class="carousel-caption">
-                                </div>
-                            </div>
-                            <!-- Ajoutez d'autres éléments de carrousel avec les images et les descriptions correspondantes -->
                         </div>
                         <a class="carousel-control-prev" href="#siropCarousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
